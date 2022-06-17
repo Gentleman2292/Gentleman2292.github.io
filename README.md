@@ -1,2 +1,2 @@
 # GentlemanMC.github.io
-i unlazied my self
+I unlazied my self
