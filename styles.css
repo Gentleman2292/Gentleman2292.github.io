@@ -104,34 +104,14 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
-.Current-Background-Card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  max-height: 190px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all 0.5s;
-}
-.Current-Background-Card:hover {
-  border-color: #ff99ff;
-}
-
-.Future-Project-Card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+.future {
   max-width: 500px;
   max-height: 250px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all 0.5s;
 }
-.Future-Project-Card:hover {
-  border-color: #ff99ff;
+
+.background {
+  max-width: 500px;
+  max-height: 250px;
 }
 
 ul.skills {
