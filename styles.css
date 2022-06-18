@@ -93,6 +93,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  max-height: 220px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -101,6 +102,16 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.future {
+  max-width: 500px;
+  max-height: 250px;
+}
+
+.background {
+  max-width: 500px;
+  max-height: 250px;
 }
 
 ul.skills {
@@ -130,6 +141,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: 0.75em;
+
 }
 
 footer ul {
@@ -201,4 +213,8 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+}
+
+h3 {
+  text-align: center;
 }
