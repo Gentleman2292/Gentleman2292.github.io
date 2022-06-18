@@ -164,14 +164,9 @@ a.social {
   opacity: 0.4;
   transition: all 0.5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
 a.github {
   background-image: url(images/github.svg);
+  text-align: center;
 }
 a.social:hover {
   opacity: 1;
@@ -216,5 +211,9 @@ a.social:hover {
 }
 
 h3 {
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
