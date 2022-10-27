@@ -45,6 +45,10 @@
     <li>
       <a href="https://github.com/GentlemanMC" class="social github">Github</a>
   </ul>
-  <p class="copyright">Copyright 2022, GentleWare & Co.</p>
+  <p class="copyright">Copyright <span id="year" value="date"></span>, GentleWare & Co.</p>
+  <script>
+    const year = document.querySelector("#year");
+    year.innerHTML = new Date().getFullYear();
+  </script>
 </footer>
 </html>

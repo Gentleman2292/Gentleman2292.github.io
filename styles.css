@@ -160,12 +160,21 @@ a.social {
 a.github {
   background-image: url(images/github.svg);
   text-align: center;
+  opacity: 1;
 }
 a.social:hover {
-  opacity: 1;
+  opacity: 0.7;
 }
 .clearfix {
   clear: both;
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 /* Styles for larger screens */
@@ -201,12 +210,4 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-}
-
-h3 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
 }
